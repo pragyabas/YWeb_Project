@@ -1,0 +1,36 @@
+
+.main div{
+    margin: 20px 0 20px 0;
+}
+
+.one{
+    width: 175px;
+    height: 40px;
+    border: 1px solid #ff6200;
+}
+
+.two{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ff6200;
+    margin: 0 20px 0 0;
+}
+
+.three{
+    width: 620px;
+    height: 40px;
+    border: 1px solid #ff6200;
+}
+
+.four{
+    width: 620px;
+    height: 150px;
+    border: 1px solid #ff6200;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin: 50px 0 20px 0;
+    
+}

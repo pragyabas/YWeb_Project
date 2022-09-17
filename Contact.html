@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/x-icon" href="logo/ywebLogoMark.ico">
+    <title>Contact Us</title>
+</head>
+<body>
+    
+    <!-- Menu bar -->
+
+    <section class="header">
+
+        <a href="Yweb.html"><img class="logo" src="logo/Yweblogo.svg"></a> 
+
+     <div class="menu">
+       <div><a href="Yweb.html">Home</a></div>
+       <div><a href="About.html">About Us</a></div>
+       <div><a href="Service.html">Our Services</a></div>
+       <div><a href="Support.html">Support Us</a></div>
+       <div><a href="Community.html">Our Community</a></div>
+       <div style="background-color: white;"><a style="color: #ff6200;" href="Contact.html">Contact Us</a></div>
+     </div>
+    
+       </section>
+
+
+       <section class="body">
+
+          <div id="contactpage" class="content">
+
+            <div class="text">
+                <h5>READY TO START? <div class="line"></div></h5>
+                <h1>Let's Talk</h1>
+            </div>
+ 
+         <!-- Information about Yweb -->
+ 
+            <div class="information">
+ 
+                <div class="address">
+                     YWCA Madison, <br>
+                     Address: 101 E. Mifflin Street, <br>
+                     Suite 100, Madison, WI 53703
+                </div>
+ 
+                <div class="contact">
+                 Phone: (608) 257-1436 <br> 
+                 Fax: (608) 257-1439 <br>
+                 Email: info@ywcamadison.org
+                </div>
+            </div>
+ 
+                <h3>- Or just drop us a line</h3>
+ 
+         <!-- Form area -->
+ 
+ 
+                <form action="">
+ 
+          <!-- Name area -->
+ 
+                 <div class="info">
+ 
+                     <div class="name">
+                         <label for="name" >Name</label> <br><br>
+                         <input type="text" id="name" required>
+                     </div>
+  
+                     <div class="email">
+                         <label for="email">Email</label> <br><br>
+                         <input type="email" id="email" required>
+                     </div>
+                 </div>
+                 
+          <!-- Message area -->
+ 
+ 
+                 <div>
+                     <label for="message">Message</label> <br><br>
+                     <textarea name="message" id="" cols="64" rows="10" placeholder="Type your message here" required></textarea>
+                 </div>
+ 
+                 <div class="button"><input id="submit" type="submit" value="Submit"></div>
+
+                </form>
+          </div>
+
+          <div id="thanks">Thank you for your message. <br><br>
+              Hope to hear back within one to two business days.
+             <div>
+                <a style="text-decoration: none;" id="link" href="Contact.html">Go back</a>
+                <a style="text-decoration: none;" id="link" href="Yweb.html">Home</a>
+            </div>
+            </div>
+           
+       </section>
+
+
+       <!-- Footer -->
+
+       <section class="footer">
+
+        <a href="Yweb.html#home"><img class="logo" src="logo/logo2.png"></a>
+      
+        <div class="info">
+          Address: 2040 S Park St, Madison WI 53713 <br><br>
+          Phone: (608) 257-1436 <br><br>
+          Fax: (608) 257-1439 <br><br>
+          Email: info@ywcamadison.org
+        </div>
+      
+        <div class="copyright">
+          <a style= "color: white;" href="https://www.ywcamadison.org/privacy-policy/">Privacy Policy</a> <br><br>
+          <a style= "color: white;" href="https://www.ywcamadison.org/sitemap/">Sitemap</a> <br><br>
+          <a style= "color: white;" href="About.html">About YWeb</a> <br><br>
+          <a style= "color: white;" href="Contact.html">Contact Us</a> <br><br>
+           © 2022 YWCA Madison, All Rights Reserved.
+        </div>
+      
+        <div class="social-media">
+          <a href="https://www.facebook.com/YWCAMadison/" target="_blank"><img src="Image/facebook.svg"></a>
+          <a href="https://twitter.com/YWCAMADISON" target="_blank"><img src="Image/twitter.svg"></a>
+          <a href="https://www.youtube.com/c/YWCAMadisonOrg/ywcausa" target="_blank"><img src="Image/youtube.svg"></a>
+        </div>
+            
+      </section> 
+      
+      <script>
+          const page = document.querySelector("#contactpage")
+          const but = document.querySelector("#submit");
+          const thanks = document.querySelector("#thanks");
+          but.addEventListener("click", function(){
+              page.style.display = "none";
+          })
+          but.addEventListener("click",function(){
+              thanks.style.display = "flex";
+          })
+      </script>
+
+</body>
+</html>
